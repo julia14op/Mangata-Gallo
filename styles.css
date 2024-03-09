@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(255, 255, 255, 0.799);
+    color: black;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.5rem; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h6 {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: black;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightsalmon;
+}
+
+.upper-section{
+    background-image: url(pic4.jpeg);
+}
+
+section h1 {
+    text-align: center;
+    color:white;
+}
+
+section p{
+    color:white;
+    text-align: center;
+    
+}
+
+section p::first-letter {
+    color: rgb(222, 168, 146);
+    line-height: 2;
+}
+
+hr{
+    margin-top: 10%;
+}
+
+article {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+article a {
+    color: black;
+    text-align: center;
+}
+article a:hover{
+    color: lightsalmon;
+}
+.mainpic {
+    width: 200px;
+    height: 200px;
+}
+
+
+footer {
+    display: flex;
+}
+
+.footerpic {
+
+    width: 200px;
+    height: 30px;
+}
+
+footer div {
+    color: grey;
+    margin-top: 2%;
+    flex: 3;
+    font-size: 1rem;
+}
